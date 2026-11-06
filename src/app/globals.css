@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --gold: #C6A15B;
+  --charcoal: #242424;
+  --ivory: #F5F1E8;
+  --text: #292929;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--ivory);
+  color: var(--text);
+  font-family: var(--font-poppins), system-ui, sans-serif;
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-playfair), Georgia, serif;
+}
+
+.nav-link {
+  @apply text-sm font-medium tracking-wide text-charcoal-700 hover:text-gold transition-colors;
+}
+
+.btn-primary {
+  @apply inline-flex items-center justify-center rounded-full bg-gold px-6 py-3 text-sm font-semibold text-charcoal shadow-sm hover:bg-gold-600 transition-colors focus:outline-none focus:ring-2 focus:ring-gold focus:ring-offset-2;
+}
+
+.btn-secondary {
+  @apply inline-flex items-center justify-center rounded-full border-2 border-gold bg-transparent px-6 py-3 text-sm font-semibold text-charcoal hover:bg-gold/10 transition-colors;
+}
+
+.section-padding {
+  @apply px-4 py-16 sm:px-6 lg:px-8 lg:py-24;
+}
+
+.container-narrow {
+  @apply mx-auto max-w-5xl;
+}
+
+.container-wide {
+  @apply mx-auto max-w-7xl;
+}
