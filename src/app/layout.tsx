@@ -22,10 +22,10 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Frame By Frame 2027 | Short Film & Documentary Festival",
+  title: "Short Film | Festival 2027",
   description:
     "Every Frame Tells a Story. Every Story Creates an Impact. A two-day Short Film and Documentary Festival in Bengaluru, 23–24 January 2027.",
-  keywords: ["film festival", "short film", "documentary", "Bengaluru", "Frame By Frame"],
+  keywords: ["short film", "film festival", "documentary", "Bengaluru", "Frame By Frame"],
 };
 
 export default function RootLayout({

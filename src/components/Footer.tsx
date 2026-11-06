@@ -7,7 +7,7 @@ export default function Footer() {
         <div className="grid gap-12 md:grid-cols-3">
           <div>
             <h3 className="font-playfair text-2xl font-bold">
-              Frame <span className="text-gold">By</span> Frame
+              Short <span className="text-gold">Film</span>
             </h3>
             <p className="mt-3 text-sm text-ivory/70 italic">
               Every Frame Tells a Story. Every Story Creates an Impact.
@@ -53,7 +53,7 @@ export default function Footer() {
         </div>
 
         <div className="mt-12 border-t border-ivory/10 pt-8 text-center text-xs text-ivory/50">
-          <p>© 2027 Frame By Frame Festival. All rights reserved.</p>
+          <p>© 2027 Short Film Festival. All rights reserved.</p>
           <p className="mt-1">
             <Link href="/privacy" className="hover:text-gold">Privacy Policy</Link>
             {" · "}

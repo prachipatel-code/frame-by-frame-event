@@ -22,7 +22,7 @@ export default function Header() {
       <div className="container-wide flex h-16 items-center justify-between px-4 sm:px-6 lg:px-8">
         <Link href="/" className="flex items-center gap-2">
           <span className="font-playfair text-xl font-bold tracking-tight text-charcoal">
-            Frame <span className="text-gold">By</span> Frame
+            Short <span className="text-gold">Film</span>
           </span>
         </Link>
 

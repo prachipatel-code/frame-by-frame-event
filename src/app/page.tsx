@@ -18,7 +18,6 @@ async function getEvent() {
 export default async function HomePage() {
   const event = await getEvent();
 
-  const name = event?.name || "Frame By Frame : Short Film and Documentary Festival";
   const tagline = event?.tagline || "Every Frame Tells a Story. Every Story Creates an Impact.";
   const venue = event?.venueName || "Suchitra Cinema and Cultural Academy";
   const start = event?.startDate
@@ -41,10 +40,10 @@ export default async function HomePage() {
               23–24 January 2027 · Bengaluru
             </p>
             <h1 className="mt-6 max-w-4xl font-playfair text-4xl font-bold leading-tight sm:text-5xl lg:text-6xl">
-              Frame <span className="text-gold">By</span> Frame
+              Short <span className="text-gold">Film</span>
             </h1>
             <p className="mt-2 font-playfair text-xl text-ivory/90 sm:text-2xl">
-              Short Film & Documentary Festival
+              & Documentary Festival
             </p>
             <p className="mt-6 max-w-2xl font-poppins text-base text-ivory/70 italic sm:text-lg">
               {tagline}
